@@ -1,0 +1,57 @@
+:root {
+--dark: rgba(0, 0, 0, 1);
+--bright1: rgba(156, 13, 56, 1);
+--bright2: rgba(206, 83, 116, 1);
+--light1: #EEE0FA;
+--light2: rgba(221, 240, 255, 1);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+}
+
+.person-card {
+  border: 3px solid var(--bright1);
+  border-radius: 5px;
+  background-color: var(--light1);
+  padding: 5px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  grid-template-rows: 3em 1fr;
+  grid-template-areas:
+    'heading heading'
+    'image   person-data';
+}
+
+.person-card header {
+  grid-area: heading;
+  background-color: var(--light2);
+  text-align: center;
+  vertical-align: middle;
+}
+.person-card .profile-image-div {
+  grid-area: image;
+}
+.person-card .person-data {
+  grid-area: person-data;
+}
+.person-card .profile-image-div img {
+  border-radius: 5px;
+  padding: auto auto;
+  margin: auto auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.person-card .label {
+  font-weight: bold;
+}
+.person-card ul {
+  padding-left: 10px;
+}
+.person-card li {
+  list-style-type: none;
+  border: 1px solid var(--bright1);
+  padding: 2px;
+}
