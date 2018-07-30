@@ -1,0 +1,26 @@
+<section class="person-card">
+  <header>
+    <h1>
+      ${p.name.first} ${p.name.last}
+    </h1>
+  </header>
+  <div class="profile-image-div">
+    <img src="${p.picture.large}" alt="${p.name.first} ${p.name.last}" />
+  </div>
+  <div class="person-data">
+    <ul>
+      <li>
+        <span class="label">Location</span>
+        <br />${p.location.street}
+        <br />${p.location.city}, ${p.location.state} ${p.location.postcode}
+        <br />${p.location.country}</li>
+      <li>
+        <span class="label">Email:</span> ${p.email}</li>
+      <li>
+        <span class="label">Cell:</span> ${p.cell}</li>
+      <li>
+        <span class="label">Gender:</span> ${p.gender}</li>
+    </ul>
+  </div>
+  </header>
+</section>

@@ -1,0 +1,262 @@
+[
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "milagros",
+        "last": "serrano"
+      },
+      "location": {
+        "street": "1452 calle de ángel garcía",
+        "city": "mérida",
+        "state": "islas baleares",
+        "postcode": 90234,
+        "coordinates": {
+          "latitude": "-19.5032",
+          "longitude": "27.4399"
+        },
+        "timezone": {
+          "offset": "+4:30",
+          "description": "Kabul"
+        }
+      },
+      "email": "milagros.serrano@example.com",
+      "login": {
+        "uuid": "ae6a2b8b-ec46-4931-beb8-5b8cc5d5442a",
+        "username": "orangegoose763",
+        "password": "rayray",
+        "salt": "VryKnho5",
+        "md5": "77d923140cd9f452622b596aed4d0166",
+        "sha1": "6e4cad40c957ae158dc0b42206169481aa038e59",
+        "sha256": "72ceee0406c256991e4995cdcbce063f687b63f2e4113ee031ffea19392df45b"
+      },
+      "dob": {
+        "date": "1971-06-23T19:10:24Z",
+        "age": 47
+      },
+      "registered": {
+        "date": "2014-10-05T07:10:04Z",
+        "age": 3
+      },
+      "phone": "938-323-166",
+      "cell": "606-389-529",
+      "id": {
+        "name": "DNI",
+        "value": "38521138-T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/75.jpg"
+      },
+      "nat": "ES"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "aaliyah",
+        "last": "brown"
+      },
+      "location": {
+        "street": "3510 ferry road",
+        "city": "invercargill",
+        "state": "hawke's bay",
+        "postcode": 21518,
+        "coordinates": {
+          "latitude": "34.6245",
+          "longitude": "-156.1398"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "aaliyah.brown@example.com",
+      "login": {
+        "uuid": "95ee83f6-d842-424e-8dc0-0855454220fe",
+        "username": "crazybear536",
+        "password": "bettina",
+        "salt": "id75S5o5",
+        "md5": "c72ecfeabdcdde505d1f5a1af3440efd",
+        "sha1": "3e7c5e252c1d08c8ed5ad994e62e283eca4efddb",
+        "sha256": "827afcdeca63f588670798290beff040591297b5f8fab3cc0cd7b041b51d47e2"
+      },
+      "dob": {
+        "date": "1994-06-01T00:01:56Z",
+        "age": 24
+      },
+      "registered": {
+        "date": "2014-12-16T15:34:23Z",
+        "age": 3
+      },
+      "phone": "(419)-338-6662",
+      "cell": "(499)-958-1248",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/72.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/72.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/72.jpg"
+      },
+      "nat": "NZ"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "غزل",
+        "last": "سهيلي راد"
+      },
+      "location": {
+        "street": "8593 میدان شهدا",
+        "city": "نیشابور",
+        "state": "فارس",
+        "postcode": 39876,
+        "coordinates": {
+          "latitude": "40.4269",
+          "longitude": "145.2720"
+        },
+        "timezone": {
+          "offset": "-12:00",
+          "description": "Eniwetok, Kwajalein"
+        }
+      },
+      "email": "غزل.سهيليراد@example.com",
+      "login": {
+        "uuid": "3e2407fc-b72f-455d-aba4-7eee9d247eac",
+        "username": "angryladybug952",
+        "password": "alliance",
+        "salt": "AB7mCYzI",
+        "md5": "a570bc0b06ee80e8658a8146d84b63a3",
+        "sha1": "c483c2246c2ffe743517ffa28f95094d48469f55",
+        "sha256": "ec0a6222c275a6daeddb6c303829a2ecd354249cd38753d2ebe3105eb93d7f64"
+      },
+      "dob": {
+        "date": "1972-09-21T08:15:25Z",
+        "age": 45
+      },
+      "registered": {
+        "date": "2015-01-24T11:06:34Z",
+        "age": 3
+      },
+      "phone": "013-07025959",
+      "cell": "0980-820-4986",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/38.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/38.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/38.jpg"
+      },
+      "nat": "IR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "judith",
+        "last": "gray"
+      },
+      "location": {
+        "street": "8128 w campbell ave",
+        "city": "ballarat",
+        "state": "western australia",
+        "postcode": 7455,
+        "coordinates": {
+          "latitude": "8.9004",
+          "longitude": "-39.6237"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "judith.gray@example.com",
+      "login": {
+        "uuid": "e0dbc756-7f37-4c68-907f-8c6251b038f9",
+        "username": "silverbear581",
+        "password": "batman1",
+        "salt": "o1qqeROe",
+        "md5": "ce2719eabe46f8bd9c8a0304c6fae45b",
+        "sha1": "f9caa46ed4602237c8447a63fba1019d9a83913e",
+        "sha256": "de7b3dc7ee007e92ea67da3ea735d8de64875d0cfa9a18f7026d536a1fc9160b"
+      },
+      "dob": {
+        "date": "1964-08-09T06:03:06Z",
+        "age": 53
+      },
+      "registered": {
+        "date": "2002-06-09T03:51:46Z",
+        "age": 16
+      },
+      "phone": "05-6536-0131",
+      "cell": "0461-570-770",
+      "id": {
+        "name": "TFN",
+        "value": "044432850"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/33.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/33.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/33.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "sanjin",
+        "last": "pulles"
+      },
+      "location": {
+        "street": "8378 leidseweg",
+        "city": "boekel",
+        "state": "limburg",
+        "postcode": 77965,
+        "coordinates": {
+          "latitude": "78.7604",
+          "longitude": "115.5961"
+        },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "sanjin.pulles@example.com",
+      "login": {
+        "uuid": "0d406fe9-0a75-49b3-a1eb-3d441ba11c08",
+        "username": "lazyleopard356",
+        "password": "internal",
+        "salt": "EpuWjARF",
+        "md5": "e9f2453f1783c7a8499cc787597052cb",
+        "sha1": "adb5ac3278a149b69a0a9bd07099e4e39440a492",
+        "sha256": "94e17584c60238150f194ac58f90d762c49c9b21ad25aec91e71d49bbe270a21"
+      },
+      "dob": {
+        "date": "1986-04-19T01:22:27Z",
+        "age": 32
+      },
+      "registered": {
+        "date": "2006-11-23T13:25:30Z",
+        "age": 11
+      },
+      "phone": "(318)-113-8856",
+      "cell": "(621)-123-6550",
+      "id": {
+        "name": "BSN",
+        "value": "46471867"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/73.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/73.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/73.jpg"
+      },
+      "nat": "NL"
+    }
+  ]
