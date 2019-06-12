@@ -1,7 +1,7 @@
 
 class Person {
   // Create a getOlder() method.
-  getOlder(value) {
+  getOlder = (value)=> {
     this.age += value;
   }
   constructor() {
@@ -10,7 +10,7 @@ class Person {
     // Call this.getOlder() every second to simulate aging
     setInterval( () => {
       this.getOlder(1);
-    },1000);
+    },2000);
   }
 }
 
