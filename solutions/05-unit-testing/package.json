@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "For the JavaScript Intro Class",
   "scripts": {
-    "build": "eslint src --ext .js && npm run devTest && webpack",
+    "build": "eslint src --ext .js && npm run dev-test && webpack",
     "build-dev": "eslint src --ext .js && webpack --watch",
     "test": "jasmine",
     "server": "nodemon src/server.js",

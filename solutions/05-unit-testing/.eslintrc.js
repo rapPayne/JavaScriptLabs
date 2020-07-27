@@ -11,20 +11,21 @@ module.exports = {
     "rules": {
         "indent": [
             "warn",
-            2
+            2,
+            {SwitchCase: 1}
         ],
         "linebreak-style": [
             "error",
             "unix"
         ],
         "no-console": [
-            "warn"
+            "off"
         ],
         "no-undef": [
             "warn"
         ],
         "quotes": [
-            "warn",
+            "off",
             "double"
         ],
         "semi": [

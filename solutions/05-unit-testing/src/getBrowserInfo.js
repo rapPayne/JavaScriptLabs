@@ -10,5 +10,5 @@ const getBrowserInfo = (cssClass="") => {
   }
   html += `</ul>`;
   return html;
-}
+};
 export default getBrowserInfo;
