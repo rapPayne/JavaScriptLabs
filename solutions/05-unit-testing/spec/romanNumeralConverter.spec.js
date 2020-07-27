@@ -1,4 +1,4 @@
-import convert from '../src/romanNumeralConverter';
+import { convert } from '../src/romanNumeralConverter';
 
 describe('Roman numeral converter', () => {
   it('will return 1 given i', () => {
