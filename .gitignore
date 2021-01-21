@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Where I store lab instructions that I do not want to be committed or pushed
+LabsToPrint/**
+
 # compiled output
 /dist
 /tmp
@@ -57,6 +60,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Ignore so we don't get a bunch of security warnings that don't apply here.
+package_lock.json
 
 # Dependency directories
 node_modules/
