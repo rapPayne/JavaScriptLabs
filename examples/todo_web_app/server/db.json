@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Remember the milk",
+      "priority": 1,
+      "completed": false,
+      "due": "2021-02-03"
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "priority": 1,
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Third task",
+      "priority": 2,
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "Fourth thing",
+      "priority": 3,
+      "completed": false
+    }
+  ]
+}

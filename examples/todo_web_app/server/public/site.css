@@ -1,0 +1,59 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-blue: #4285F4;
+  --color-red: #DB4437;
+  --color-yellow: #F4B400;
+  --color-green: #0F9D58;
+  --color-red-light: #DB443740;
+  --color-green-light: #0F9D5840;
+  --color-foreground-1: var(--color-blue);
+  --color-foreground-2: var(--color-red);
+  --color-foreground-3:var(--color-green);
+  --color-background-1: var(--color-white);
+  --color-background-2: var(--color-yellow);
+  --color-foreground-danger: var(--color-red);
+  --color-background-danger: var(--color-red-light);
+  --color-foreground-success: var(--color-green);
+  --color-background-success: var(--color-green-light);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-foreground-1);
+}
+
+.danger {
+  color: var(--color-foreground-danger);
+  background-color: var(--color-background-danger);
+}
+
+.success {
+  color: var(--color-foreground-success);
+  background-color: var(--color-background-success);
+}
+
+.todo {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.todo > div.priority {
+  width: 20px;
+  height: 1em;
+}
+.todo > div.priority-1 {
+  background-color: var(--color-red);
+}
+.todo > div.priority-2 {
+  background-color: var(--color-yellow);
+}
+.todo > div.priority-3 {
+  background-color: var(--color-green);
+}
+.todo > label > p.title {
+  display: inline;
+}
+
+.todo [data-completed] {
+  text-decoration: line-through;
+}
