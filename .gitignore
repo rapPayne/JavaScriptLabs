@@ -61,7 +61,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore so we don't get a bunch of security warnings that don't apply here.
-package_lock.json
+package-lock.json
 
 # Dependency directories
 node_modules/
