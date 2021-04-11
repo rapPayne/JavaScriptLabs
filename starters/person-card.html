@@ -11,15 +11,19 @@
     <ul>
       <li>
         <span class="label">Location</span>
-        <br />${p.location.street}
-        <br />${p.location.city}, ${p.location.state} ${p.location.postcode}
-        <br />${p.location.country}</li>
+        <br />${p.location?.street?.number} ${p.location?.street?.name}
+        <br />${p.location?.city}, ${p.location?.state} ${p.location?.postcode}
+        <br />${p.location?.country}
+      </li>
       <li>
-        <span class="label">Email:</span> ${p.email}</li>
+        <span class="label">Email:</span> ${p.email}
+      </li>
       <li>
-        <span class="label">Cell:</span> ${p.cell}</li>
+        <span class="label">Cell:</span> ${p.cell}
+      </li>
       <li>
-        <span class="label">Gender:</span> ${p.gender}</li>
+        <span class="label">Gender:</span> ${p.gender}
+      </li>
     </ul>
   </div>
   </header>
