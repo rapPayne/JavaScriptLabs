@@ -32,9 +32,14 @@ We need students to understand modules but (ironically) Jest has been slow to ad
 ```json
 "type": "module",
 ```
-2. Change your "test" script to explicitly call jest with the --experimental-vm-modules flag:
+2. Change your "test" script to explicitly call jest with the --experimental-vm-modules flag.
+  - Windows:
 ```json
-"test": "node --experimental-vm-modules node_modules/.bin/jest"
+  "test": "node --experimental-vm-modules node_modules/jest/bin/jest",
 ```
-(Reference: https://jestjs.io/docs/ecmascript-modules)
+  - Mac/Linux:
+  ```json
+  "test": "node --experimental-vm-modules node_modules/.bin/jest",
+  ```
+(References: https://jestjs.io/docs/ecmascript-modules and https://github.com/facebook/jest/issues/4751)
 
