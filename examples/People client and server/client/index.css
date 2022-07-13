@@ -1,0 +1,59 @@
+
+
+
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  /* CSS HEX */
+  --color-dark2: #000000ff;
+  --color-dark1: #14213dff;
+  --color-dark-orange: #fca311ff;
+  --color-light-platinum: #e5e5e5ff;
+  --color-light1: #ffffffff;
+  --color-light2-transparent: #ffffff00;
+
+  color: var(--color-dark1);
+  
+}
+
+header {
+  display: flex;
+}
+header img {
+  height: 100px;
+}
+header h1 {
+  margin-left: 20px;
+}
+
+.personCard {
+  width: 250px;
+  margin: 20px;
+  background-color: var(--color-light-platinum);
+  box-shadow: 5px 5px 5px var(--color-dark1);
+}
+.personCard .cardHeader {
+  text-align: center;
+}
+.headerWrapper {
+  position: relative;
+  min-height: 250px;
+}
+.personCard .cardHeader h3 {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  margin: 0;
+  padding: 10px 0;
+  background: linear-gradient(var(--color-light-platinum), var(--color-light2-transparent));
+}
+.personCard .cardHeader img {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  width: 100%;
+}
+#tblPeople {
+
+}
+#tblPeople td {
+  padding: 0 10px;
+}

@@ -3,6 +3,7 @@ Supporting the JavaScript course, these files include starters, solutions, instr
 
 1. [Flow of the course](flow_of_the_course)
 2. [Instructor notes](instructor_notes)
+3. [Chapter notes](chapter_notes)
 2. [Troubleshooting Jest and modules](jest_and_modules)
 
 ## Flow of the course
@@ -24,6 +25,28 @@ The course introduces very basic syntax in the first chapter, things like loopin
 
 - Students will be working in pairs or teams in the labs.
 - The lab rooms should be noisy with lots of talking. If a student is so introverted that they don't like to work with others, the labs will make them uncomfortable.
+
+## Chapter notes
+
+### Tooling
+This is to give them an appreciation for the families of tools in the JavaScript ecosystem. If they're going into React or Angular or Vue or whatever, they need to know what transpiler is, what a bundler, a minifier, and so forth.
+
+### Variables
+Stephen Colbert's picture is there because he actually coined the term "truthy".
+
+### Arrays
+If the students are in class to prepare themselves for React or React Native, the Array Functions section is very important.
+
+### Modules
+IIFEs are very skippable because we have no need to write them any more. However, some devs need to recognize them when they see legacy code.
+
+### Understanding execution context
+Very, very skippable chapter. There is no lab for it. This topic was once very important, but with the introduction of `let` and `const` and arrow functions, we almost never need to worry about it.
+
+### Asynchronous JavaScript
+This is about how the event loop works, how JavaScript is asynchronous, and mostly how promises and async/await works.
+Philip Roberts does as good a job in explaining the Event Loop as anyone, so go ahead and play the YouTube video (if it isn't too awkward to do so) while pausing to make comments.
+
 
 ## Jest and modules
 We need students to understand modules but (ironically) Jest has been slow to adopt ES2015 Modules. To enable jest to work with them, edit package.json and ...
