@@ -7,7 +7,7 @@ Supporting the JavaScript course, these files include starters, solutions, instr
 2. [Troubleshooting Jest and modules](jest_and_modules)
 
 ## Flow of the course
-The course introduces very basic syntax in the first chapter, things like looping (while, for), conditional testing (if, switch), variables with let, and comments. But it expands on those in later chapters. *Much* later.
+The course introduces the very basic syntax in the first chapter, things like looping (while, for), conditional testing (if, switch), variables with let, and comments. But it expands on those in later chapters. *Much* later.
 
 - Big picture of JavaScript and very basic syntax
 - Tooling (npm, webpack, eslint) and unit testing
@@ -17,6 +17,41 @@ The course introduces very basic syntax in the first chapter, things like loopin
 - Event loop and asynchrononicity (promises, async/await)
 - DOM manipulation
 - Ajax and consuming REST 
+
+### Agenda
+#### Day 1
+- Ch - Intro to JavaScript
+- Lab - Intro to JavaScript
+- Ch - Debugging JavaScript
+- Lab - Debugging JavaScript
+- Ch - Tooling
+- Lab - Tooling
+#### Day 2
+- Ch - Intro to NodeJS
+- Lab - Intro to NodeJS
+- Ch - Unit Testing JavaScript
+- Lab - Unit Testing JavaScript
+- Lab - TDD (Note: Two labs back-to-back)
+#### Day 3
+- Ch - Variables
+- Lab - Variables
+- Ch - Operators (Note: no lab)
+- Ch - Arrays
+- Lab - Arrays
+- Ch - Modules
+- Lab - Modules
+#### Day 4
+- Ch - Functional JavaScript
+- Lab Functional JavaScript
+- Ch - OO JavaScript
+- Lab - OO JavaScript
+#### Day 5
+- Ch - Asynchronous JavaScript
+- Lab - Asynchronous JavaScript
+- Ch - Working with the DOM
+- Lab - Working with the DOM
+- Ch - Ajax
+- Lab - Ajax
 
 ## Instructor notes
 - There are pop quizzes in some chapters. Make sure you read them before you teach so you know the answers.
