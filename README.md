@@ -19,6 +19,7 @@ The course introduces very basic syntax in the first chapter, things like loopin
 - Ajax and consuming REST 
 
 ## Instructor notes
+- There are pop quizzes in some chapters. Make sure you read them before you teach so you know the answers.
 - The labs require you to work harder than in some other JavaScript courses you may have taught, especially if it is a virtual class. 
 - The labs simulate real-world work by posing problems and asking the students to solve them as a team.
 - You'll want to create breakout rooms and bounce between the rooms helping and making sure *everyone* is participating. If a student is shy and declines to participate, they will often complain that they didn't enjoy the labs. Students who actively work in their pairs tend to *love* the labs.
@@ -45,8 +46,10 @@ Very, very skippable chapter. There is no lab for it. This topic was once very i
 
 ### Asynchronous JavaScript
 This is about how the event loop works, how JavaScript is asynchronous, and mostly how promises and async/await works.
-Philip Roberts does as good a job in explaining the Event Loop as anyone, so go ahead and play the YouTube video (if it isn't too awkward to do so) while pausing to make comments.
+Philip Roberts does as good a job in explaining the Event Loop as anyone. If it isn't too awkward to do so and you have plenty of time, go ahead and play the YouTube video while pausing to make comments.
 
+### Ajax
+We cover XmlHttpRequest, but you can go through it quickly because fetch is the modern way to make Ajax calls.
 
 ## Jest and modules
 We need students to understand modules but (ironically) Jest has been slow to adopt ES2015 Modules. To enable jest to work with them, edit package.json and ...
