@@ -49,9 +49,9 @@ The course introduces the very basic syntax in the first chapter, things like lo
 - Ch - Asynchronous JavaScript
 - Lab - Asynchronous JavaScript
 - Ch - Working with the DOM
-- Lab - Working with the DOM
+- Lab - Working with the DOM (If no final assessment)
 - Ch - Ajax
-- Lab - Ajax
+- Lab - Ajax (If no final assessment)
 
 ## Instructor notes
 - There are pop quizzes in some chapters. Make sure you read them before you teach so you know the answers.
@@ -61,6 +61,7 @@ The course introduces the very basic syntax in the first chapter, things like lo
 
 - Students will be working in pairs or teams in the labs.
 - The lab rooms should be noisy with lots of talking. If a student is so introverted that they don't like to work with others, the labs will make them uncomfortable.
+- If you are giving a final assessment, you will not do the final two labs (DOM and Ajax). Instead, take this time for the assessment.
 
 ## Chapter notes
 
